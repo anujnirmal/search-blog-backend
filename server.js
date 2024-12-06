@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(cors({
     origin: [
-      '*'
+      'https://search-blog-frontend-0b06.onrender.com'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: [
